@@ -1,0 +1,56 @@
+title{
+    background-color: #2F0A28;
+    padding-left: 18px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+    z-index: 10;
+
+    }
+    div{
+        background-color: #0000008a;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 15px;
+        margin-top: 15px;
+        width: 100%;
+        nav{
+
+            ul{
+                list-style: none;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .boton-inicio{
+                    padding-left: 10px;
+                }
+
+                li{
+                    font-family: 'Nunito', sans-serif;
+                    font-size: large;
+                    margin: 5px;
+                    padding-right: 20px;
+                    margin-top: 0px;
+                    margin-right: 0px;
+
+
+
+                    a{
+                        text-decoration: none;
+                        color: #e06599;
+                        text-shadow: 0 0 5px rgb(255, 0, 106); 
+
+                    }
+
+                }
+
+            }
+            
+        }
+
+    }
+
